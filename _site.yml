@@ -1,0 +1,30 @@
+name: "my-website"
+navbar:
+  title: "InstaMetric"
+  left:
+    - icon: fa-home
+      href: index.html
+    - text: "TOP 1000"
+      href: list.html
+    - text: "Ville de Québec"
+      href: qc_table.html
+    - text: "Ville de Montréal"
+      href: mtl_table.html
+    - text: "Province de Québec"
+      href: "province_er.html"
+     
+output:
+  html_document:
+      code_download: true
+      df_print: paged
+      theme: flatly
+      highlight: tango
+      toc: true
+      toc_float: true
+      number_sections: true
+      code_folding: show
+      include:
+        after_body: footer.html
+      css: style.css
+new_session: true
+exclude: ["renv.lock"]

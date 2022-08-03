@@ -1,0 +1,63 @@
+---
+title: "InstaMetric"
+output:
+    html_document:
+        code_download: false
+        toc: false
+        number_sections: false
+        code_folding: "none"
+---
+
+
+
+Cette page web a été créer dans le but de faciliter la connexion entre les entreprises et les influenceurs situés dans la province de Québec. À l'heure actuelle vous pouvez consulter le top 500 des influencers étant dans la ville de Montréal et Québec. De plus, il y a également un top 500 pour la province. 
+
+Les agences fournissant habituellement les données sur les influenceurs appliquent des tarifs qui sont exagérés et qui nuisent tant à l'entreprise qu'a l'influenceur qui sera commandité. 
+
+
+Cette page restera gratuite et sera mises à jour fréquemment. Les informations contenues dans cette page sont obtenue en utilisant une méthode alternative à l'API fournie par Instagram. En effet, les profils des influenceurs sont balayés par webscraping et par la suite insérer dans une base de données. 
+
+Voici les éléments et indicateurs que vous allez pouvoir trouver sur les influenceurs dans la province de Québec. (Cette page est uniquement pour ceux ayant un compte instragram). La majorité des indicateurs mentionnés ci-bas sont obtenus directement dans le code HTML laissé public par instagram mais impossible à structurer sous format de base de données sans utiliser des outils statistiques.
+
+* Handle Instagram 
+* Lien Instagram 
+* Nom complet 
+* Followers 
+* Following 
+* Post engagement % 
+* Estimation du coût d'un post photo 
+* Estimation du coût d'un post vidéo 
+* Nombre de posts 
+* Score de qualité 
+* Taux de croissance des followers 
+* Ratio followers/following 
+* Ratio commentaires/likes 
+* Fréquence des posts 
+* Moyenne des likes des posts 
+* Moyenne des commentaires des posts 
+* Dernières vidéos vues 
+* Dernière vidéo likes 
+* Dernière vidéo commentaires 
+* Pourcentage de Taux d'engagement moyen des posts de marque 
+* Catégories 
+* Emplacement fréquent 
+* Pourcentage de followers suspects 
+* Emplacement de l'audience 
+* Âge de l'audience 
+* Pourcentage de followers féminins 
+* Pourcentage de followers masculins 
+* Intérêts de l'audience 
+* Langues de l'audience 
+* Mentions de la marque 
+* Email 1 
+* Email 2 
+* Email 3 
+* Youtube 
+* Facebook 
+* Twitter 
+* Snapchat 
+* Site Web 1 
+* Site Web 2 
+* Site Web 3 
+* notes Statut
+

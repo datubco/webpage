@@ -1,0 +1,17 @@
+---
+title: "top1000"
+output: html_document
+date: "2022-08-03"
+---
+
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(readr)
+library(DT)
+list_transpose <- read_delim("list_transpose.csv", delim = ";", escape_double = FALSE, trim_ws = TRUE)
+x=cbind(list_transpose[1:1000])
+datatable(x, options = list(pageLength = 42))
+```
+
+
